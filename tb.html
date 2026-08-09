@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino B</title>
+    <link rel="stylesheet" href="css/treinos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Bíceps Femoral | Adutor | Glúteo | Panturrilha | Abdômen</h1>
+    <button class="back" onclick="history.back()">voltar</button>
+    <section class="container">
+        <div class="box">
+            <h2 class="title txt">Elevação Pélvica com Barra</h2>
+            <h3 class="txt">(Carga máxima)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">1X20 + 3X15</p>
+            <h3 class="txt">Descanso: 1min a 2min</h3>
+            <button class="btn" id="btnAbrirVideo" data-url="videos/video14.mp4">VÍDEO</button>
+        </div>
+         <div class="box">
+            <h2 class="title txt">Extensão de Quadril na Polia Baixa</h2>
+            <h3 class="txt">(Perna extendida)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X15</p>
+            <h3 class="txt">Descanso: 1min a 2min</h3>
+            <button class="btn" id="btnAbrirVideo" data-url="videos/video34.mp4">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Stiff Unilateral com Halter</h2>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X15</p>
+            <h3 class="txt">Descanso: 1min a 2min</h3>
+            <button class="btn" id="btnAbrirVideo" data-url="videos/video6.mp4">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Leg Press 45° Sumô</h2>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X15</p>
+            <h3 class="txt">Descanso: 1min a 2min</h3>
+            <button class="btn" id="btnAbrirVideo" data-url="videos/video9.mp4">VÍDEO</button>
+        </div>
+       <div class="box">
+            <h2 class="title txt">Agachamento Sumô no Smith</h2>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X15</p>
+            <h3 class="txt">Descanso: 1min a 2min</h3>
+            <button class="btn" id="btnAbrirVideo" data-url="videos/video11.mp4">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Cadeira Adutora</h2>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X20</p>
+            <h3 class="txt">Descanso: 1min a 2min</h3>
+            <button class="btn" id="btnAbrirVideo" data-url="videos/video12.mp4">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Banco Gêmeos</h2>
+            <h3 class="txt">(Pés em V)</h3>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X15</p>
+            <h3 class="txt">Descanso: 1min a 2min</h3>
+            <button class="btn" id="btnAbrirVideo" data-url="videos/video33.mp4">VÍDEO</button>
+        </div>
+        <div class="box">
+            <h2 class="title txt">Abdominal Supra Solo</h2>
+            <h3 class="txt">Séries -</h3>
+            <p class="txt">3X20</p>
+            <h3 class="txt">Descanso: 1min a 2min</h3>
+            <button class="btn" id="btnAbrirVideo" data-url="videos/video41.mp4">VÍDEO</button>
+        </div>
+    </section>
+
+    <div id="videoCard">
+        <span class="fechar" onclick="fecharVideo()">&times;</span>
+        <br>
+        <video id="meuVideo" width="640" controls>
+            <source id="fonteVideo" src="" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+    </div>
+    
+</body>
+</html>
